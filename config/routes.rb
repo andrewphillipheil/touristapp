@@ -11,7 +11,7 @@ Treebook::Application.routes.draw do
 
   resources :statuses
   get 'feed', to: 'statuses#index', as: :feed
-  root to: 'statuses#index'
+  root to: 'home#index'
 
   get '/:id', to: 'profiles#show'
 

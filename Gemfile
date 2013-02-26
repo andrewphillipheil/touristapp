@@ -35,3 +35,5 @@ group :test do
   gem 'shoulda-matchers'
   gem 'shoulda-context'
 end
+
+gem 'google-webfonts'
