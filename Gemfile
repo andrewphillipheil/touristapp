@@ -7,6 +7,14 @@ gem 'rails', '3.2.6'
 
 gem 'devise'
 gem 'simple_form'
+gem 'state_machine'
+gem 'draper'
+gem 'js-routes'
+
+group :test do
+  gem 'shoulda'
+  gem 'factory_girl_rails'
+end
 
 group :development, :test do
 	gem 'sqlite3'
@@ -30,8 +38,19 @@ end
 
 gem 'jquery-rails'
 
-group :test do
-  gem 'shoulda'
-  gem 'shoulda-matchers'
-  gem 'shoulda-context'
-end
+
+gem 'google-webfonts'
+# To use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
+
+# To use Jbuilder templates for JSON
+# gem 'jbuilder'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+# To use debugger
+# gem 'debugger'
