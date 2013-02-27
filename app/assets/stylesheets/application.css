@@ -12,19 +12,38 @@
  *= require_tree .
  */
 
-body {
+ body {
 
-	background: #E9E9E9 url(../img/bg.jpg) repeat 0 0;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top center;
-	font: 13px/1.7em 'Open Sans';
-		padding-top: 40px;
-}
+ 	padding-top:50px;
+
+ }
 
 .alert {
-	margin-top: 10px;
+	margin-top:10px;
 }
+
+/*------------------------------------------------------------------
+
+[Layout Stylesheet]
+
+	Project:		Tourist App
+	Version:		1.0
+	Last change:	05/21/2012
+	Assigned to:	Andrew Heil (rh)
+
+
+[Table of contents]
+
+	1. Global
+	2. Navbar / .navbar
+	3. Subnavbar / .subnavbar
+	4. Main / .main
+	5. Footer / .footer
+	6. Widget / .widget
+	7. Error / .error-container
+	8. Miscellaneous
+
+-------------------------------------------------------------------*/
 
 
 
@@ -32,10 +51,15 @@ body {
 [1. Global]
 */
 
-    
-p { 
-	font: 13px/1.7em 'Open Sans'; 	
+body {
+	background: #77b5ee url(../img/bg.jpg) repeat 0 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	font: 13px/1.7em 'Open Sans';
 }
+    
+
     
 input,
 button,
@@ -90,7 +114,7 @@ textarea {
 }
 
 .navbar-inner {
-	padding: 7px 0;
+	padding: 2px 0;
 	
 	background: #e4e4e4;
 	
@@ -121,8 +145,12 @@ textarea {
 	font-size: 16px;
 	font-weight: bold;
 	border:none;
-	margin-top:10px;
+	margin-top:5px;
 	
+}
+
+.sfont	{
+font-size:20px;
 }
 
 .navbar .search-query::-webkit-input-placeholder {
@@ -594,7 +622,7 @@ margin:0 auto;
 }
 
 .get-invited {
-height:75px;
+
 width:100%;
 margin:0 auto;
 border-top-left-radius: 4px;
@@ -662,6 +690,32 @@ margin-top: 100px;
 
 .main-query {padding:10px; margin:15px 0px; width:70%;}
 
+
+.main-query-field input {
+
+background: rgba(0,0,0,0.6);
+border: 2px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
+color: white;
+color: rgba(255,255,255,0.8);
+font-family: Proxima Nova, Helvetica, Arial, sans-serif;
+padding: 10px;
+padding-top: 0;
+padding-bottom: 0;
+outline: 0;
+width: 70%
+font-weight: normal;
+font-size: 14px;
+color: #B4B4B4;
+height: 37px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+
+
+}
 .home-login {
 width: 385px;
 height: 175px;
@@ -669,7 +723,7 @@ float: right;
 margin-top: 120px;
 }
 
-.home-login p{color:#e3e3e3;}
+.home-login p{color:#e3e3e3; font-size:16px;}
 .home-login-field input {
 background: rgba(0,0,0,0.6);
 border: 2px solid rgba(255,255,255,0.1);
@@ -683,7 +737,7 @@ padding: 10px;
 padding-top: 0;
 padding-bottom: 0;
 outline: 0;
-width: 350px;
+width: 70%;
 font-weight: normal;
 font-size: 14px;
 color: #B4B4B4;

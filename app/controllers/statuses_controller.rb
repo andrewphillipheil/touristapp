@@ -4,10 +4,6 @@ class StatusesController < ApplicationController
   # GET /statuses
   # GET /statuses.json
   def index
-    if !user_signed_in?
-        redirect_to  root_path
-    return
-    end
     @statuses = Status.all
 
     respond_to do |format|
