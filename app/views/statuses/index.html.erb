@@ -1,8 +1,8 @@
 <div class="page-header">
-  <h1>All of the Statuses</h1>
+  <h1>All aboard</h1>
 </div>
 
-<%= link_to "Post a New Status", new_status_path, class: "btn btn-success" %>
+<%= link_to "Create New Trip", new_status_path, class: "btn btn-warning" %>
 
 <% @statuses.each do |status| %>
 <div class="status">
@@ -11,7 +11,7 @@
       <%= link_to image_tag(status.user.gravatar_url), profile_path(status.user) %>
     </div>
     <div class="span7">
-      <strong><%= status.user.full_name %></strong>
+      <strong><%= link_to status.user.full_name, profile_path(status.user) %></strong>
       <p><%= status.content %></p>
       <div class="meta">
         <%= link_to time_ago_in_words(status.created_at) + " ago", status %> 
