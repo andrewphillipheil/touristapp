@@ -113,9 +113,7 @@ textarea {
 
 .navbar-inner {
 	
-	background: #e4e4e4;
-	
-	border-bottom: 1px solid #3a85bc;	
+	background: #e4e4e4;	
 	
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
@@ -658,7 +656,7 @@ float: left;
 #lower {background-color:#000;}
 
 .main-foot {
-background-color:#18466a;
+background-color:#2e7ec7;
 border-top-left-radius: 4px;
 border-top-right-radius: 4px;
 background-repeat: no-repeat;
@@ -680,6 +678,7 @@ margin:0 auto;
 color: #2e7ec7;
 text-shadow: 0px 1px 1px rgb(100,100,100,100, .5);
 font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .tagline p {
@@ -906,6 +905,7 @@ padding:0px;
 	-moz-transition-duration: 0.3s;
 	-o-transition-duration: 0.3s;
 	transition-duration: 0.3s;
+
 }
 .btn.signinbutton{
 	background-color: #faa732;
@@ -930,6 +930,8 @@ padding:0px;
 	-webkit-transition-duration:0.3s;
 	-moz-transition-duration:0.3s;-o-transition-duration:0.3s;
 	transition-duration:0.3s;
+	margin-bottom:30px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 	
@@ -987,4 +989,172 @@ color:#fff;
 
 	padding-top:20px;
 
+}
+
+
+#section1 {
+width: 100%;
+min-height: 300px;
+border-bottom: 1px solid #e6e6e6;
+border-top: 1px solid #e6e6e6;
+background: white;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+#section1 h2 {
+
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size: 20px;
+}
+
+
+#section1 .destination-large {
+width: 600px;
+height: 370px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+border: 1px solid #e6e6e6;
+margin-bottom: 20px;
+float: left;
+background: white;
+}
+
+#section1 .destination-large .featured-info .featured-avatar img {
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+#section1 .destination-large .featured-info .featured-avatar {
+width: 50px;
+height: 50px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+margin: 10px;
+float: left;
+}
+
+#section1 .destination-large .featured-info {
+width: 600px;
+height: 70px;
+background: rgba(0,0,0,0.25);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+margin-top: 300px;
+}
+
+#section1 .destination-large .featured-info .featured-content h2, #section1 .destination-large .featured-info .featured-content a, #section1 .destination-large .featured-info .featured-content p{
+color: white;
+text-shadow: 1px 1px 1px #333;
+}
+
+
+.destination-small .destination-smaller .featured-smaller-content h2, .featured-smaller-content a, .featured-smaller-content p {
+
+	color:white;
+	text-shadow: 1px 1px 1px #333;
+}
+.destination-small .destination-smaller .featured-smaller-content h2:hover, .featured-smaller-content a:hover, .featured-smaller-content p:hover{
+
+	color:white;
+	text-shadow: 1px 1px 1px #333;
+}
+
+
+#section1 .destination-large .featured-info .featured-content p {
+margin-top: 0px;
+}
+
+#section1 .destination-small {
+width: 330px;
+height: 370px;
+float: right;
+}
+
+#section1 .destination-small .destination-smaller {
+width: 330px;
+height: 180px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border: 1px solid #e6e6e6;
+background: white;
+}
+
+#section1 .destination-small .destination-smaller .featured-smaller-info {
+width: 330px;
+height: 70px;
+background: rgba(0,0,0,0.25);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+margin-top: 110px;
+}
+
+#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar {
+width: 50px;
+height: 50px;
+border-radius: 4px;
+margin-left: 10px;
+padding-top: 10px;
+float: left;
+}
+
+#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar img {
+width: 50px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+
+#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-content {
+margin-top: 10px;
+margin-left: 70px;
+}
+
+#section1 .destination-small .destination-smaller:nth-child(2) {
+margin-top: 10px;
+}
+
+
+#section2 {
+width: 100%;
+height: 300px;
+background: #333;
+border-bottom: 1px solid #252525;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+#section2 .feature-left {
+width: 500px;
+height: 190px;
+float: left;
+margin-top: 50px;
+}
+
+#section2 .feature-right {
+width: 351px;
+height: 185px;
+float: right;
+margin-top: 23px;
+}
+
+#section2 .feature-left h2 {
+color: white;
+text-shadow: 1px 1px 1px #333;
+
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+font-size: 22px;
+}
+
+#section2 .feature-left p {
+color: white;
+text-shadow: 1px 1px 1px #333;
+
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
 }
