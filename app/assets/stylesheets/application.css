@@ -191,8 +191,7 @@ background-color:#eeeeee;
 	background-image: linear-gradient(top, #2e7dc7, #2e7dc7);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e7dc7', endColorstr='#2e7dc7', GradientType=0);
-	
-	border-bottom: 1px solid #3a85bc;
+
 }
 
 .subnavbar .container > ul {
