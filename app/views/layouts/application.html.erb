@@ -2,16 +2,32 @@
 <html>
 <head>
   <title>Tourist</title>
+  <!--[if lt IE 8]>
+<%= stylesheet_link_tag "font-awesome-ie7.min.css", media: "all" %>
+<![endif]-->
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <%= google_webfonts_link_tag :open_sans        => [300] %>
 </head>
 <body>
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a href="/" class="brand"> <img src="../img/logo.png" alt="logo" /></a>
+
+<div class="navbar navbar-fixed-top">
+	
+	<div class="navbar-inner">
+		
+		<div class="container">
+			
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			
+
+			<a href="/" class="brand"> <img src="../img/logo.png" alt="logo" /></a>
+			
+			<div class="nav-collapse">
 				<ul class="nav pull-right">
 					<% if user_signed_in? %>
 						<li><%= link_to 'Friends', user_friendships_path %></li>
@@ -38,9 +54,19 @@
 						<li><%= link_to "Log in", login_path %></li>
 					<% end %>
 				</ul>
-			</div>
-		</div>
-	</div>
+			
+				
+			</div><!--/.nav-collapse -->	
+	
+		</div> <!-- /container -->
+		
+	</div> <!-- /navbar-inner -->
+	
+</div> <!-- /navbar -->
+
+
+
+
 	<% if user_signed_in? %>
 
     
@@ -53,37 +79,34 @@
 				<ul class="mainnav">
 				
 					<li class="active">
-						<a href="./">
-					
-							<span><i class="icon-home"></i>Home</span>
+						<a href="/">
+							<span>
+								<i class="icon-home"></i>
+								Home
+							</span>
 						</a>	    				
 					</li>
-					
 					<li>
-						<a href="./faq.html">
-
-							<span><i class="icon-home"></i>Trips</span>
+						<a href="/">
+							<span>
+								<i class="icon-picture"></i>
+								Trips
+							</span>
 						</a>	    				
 					</li>
-					
-					<li>					
-						<a href="./pricing.html" class="dropdown-toggle">
-
-							<span><i class="icon-home"></i>Explore</span>
-						</a>	  				
-					</li>
-					
+					<li>
+						<a href="/">
+							<span>
+								<i class="icon-plane"></i>
+								Explore
+							</span>
+						</a>	    				
+					</li>		
 					<li>
 						<a href="./reports.html">
 
-							<span><i class="icon-home"></i>Connect</span>
+							<span><i class="icon-random"></i>Connect</span>
 						</a>    				
-					</li>
-					
-					<li>					
-						<a href="./guidely.html">
-							<span><i class="icon-home"></i>Me</span>
-						</a>  									
 					</li>
 				</ul>
 

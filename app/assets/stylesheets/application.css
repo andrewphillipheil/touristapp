@@ -11,6 +11,7 @@
  *= require_self
  *= require_tree .
  */
+ @import "font-awesome";
 
 body {
 	padding-top: 40px;
@@ -162,9 +163,9 @@ font-size:20px;
 
 }
 
-.navbar .container > ul > li:hover{
+.nav-collapse > ul > li:hover{
 
-background-color:#f6f6f6;
+background-color:#eeeeee;
 
 }
 
