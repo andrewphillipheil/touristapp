@@ -994,23 +994,22 @@ color:#fff;
 
 #section1 {
 width: 100%;
-min-height: 300px;
+min-height:300px;
 border-bottom: 1px solid #e6e6e6;
 border-top: 1px solid #e6e6e6;
 background: white;
-
 font-family: 'Open Sans', sans-serif;
 }
 
-#section1 h2 {
-
+#section2 h2 {
+color:white;
 font-family: 'Open Sans', sans-serif;
 font-weight: normal;
 font-size: 20px;
 }
 
 
-#section1 .destination-large {
+#section2 .destination-large {
 width: 600px;
 height: 370px;
 border-radius: 4px;
@@ -1021,13 +1020,13 @@ float: left;
 background: white;
 }
 
-#section1 .destination-large .featured-info .featured-avatar img {
+#section2 .destination-large .featured-info .featured-avatar img {
 border-radius: 4px;
 -moz-border-radius: 4px;
 -webkit-border-radius: 4px;
 }
 
-#section1 .destination-large .featured-info .featured-avatar {
+#section2 .destination-large .featured-info .featured-avatar {
 width: 50px;
 height: 50px;
 border-radius: 4px;
@@ -1037,7 +1036,7 @@ margin: 10px;
 float: left;
 }
 
-#section1 .destination-large .featured-info {
+#section2 .destination-large .featured-info {
 width: 600px;
 height: 70px;
 background: rgba(0,0,0,0.25);
@@ -1046,7 +1045,7 @@ border-bottom-right-radius: 4px;
 margin-top: 300px;
 }
 
-#section1 .destination-large .featured-info .featured-content h2, #section1 .destination-large .featured-info .featured-content a, #section1 .destination-large .featured-info .featured-content p{
+#section2 .destination-large .featured-info .featured-content h2, #section2 .destination-large .featured-info .featured-content a, #section2 .destination-large .featured-info .featured-content p{
 color: white;
 text-shadow: 1px 1px 1px #333;
 }
@@ -1064,17 +1063,17 @@ text-shadow: 1px 1px 1px #333;
 }
 
 
-#section1 .destination-large .featured-info .featured-content p {
+#section2 .destination-large .featured-info .featured-content p {
 margin-top: 0px;
 }
 
-#section1 .destination-small {
+#section2 .destination-small {
 width: 330px;
 height: 370px;
 float: right;
 }
 
-#section1 .destination-small .destination-smaller {
+#section2 .destination-small .destination-smaller {
 width: 330px;
 height: 180px;
 border-radius: 4px;
@@ -1084,7 +1083,7 @@ border: 1px solid #e6e6e6;
 background: white;
 }
 
-#section1 .destination-small .destination-smaller .featured-smaller-info {
+#section2 .destination-small .destination-smaller .featured-smaller-info {
 width: 330px;
 height: 70px;
 background: rgba(0,0,0,0.25);
@@ -1093,7 +1092,7 @@ border-bottom-right-radius: 4px;
 margin-top: 110px;
 }
 
-#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar {
+#section2 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar {
 width: 50px;
 height: 50px;
 border-radius: 4px;
@@ -1102,58 +1101,58 @@ padding-top: 10px;
 float: left;
 }
 
-#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar img {
+#section2 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-avatar img {
 width: 50px;
 border-radius: 4px;
 -moz-border-radius: 4px;
 -webkit-border-radius: 4px;
 }
 
-#section1 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-content {
+#section2 .destination-small .destination-smaller .featured-smaller-info .featured-smaller-content {
 margin-top: 10px;
 margin-left: 70px;
 }
 
-#section1 .destination-small .destination-smaller:nth-child(2) {
+#section2 .destination-small .destination-smaller:nth-child(2) {
 margin-top: 10px;
 }
 
 
 #section2 {
 width: 100%;
-height: 300px;
+min-height: 190px;
 background: #18466a;
 border-bottom: 1px solid #252525;
 
 font-family: 'Open Sans', sans-serif;
 }
 
-#section2 .feature-left {
+#section1 .feature-left {
 width: 500px;
-height: 190px;
+min-height:200px;
 float: left;
 margin-top: 50px;
 }
 
-#section2 .feature-right {
+#section1 .feature-right {
 width: 351px;
 height: 185px;
 float: right;
 margin-top: 23px;
 }
 
-#section2 .feature-left h2 {
-color: white;
-text-shadow: 1px 1px 1px #333;
+#section1 .feature-left h2 {
+color: #555;
 
 font-family: 'Open Sans', sans-serif;
 font-weight: normal;
 font-size: 22px;
 }
 
+#section1 .feature-left p {
+
 #section2 .feature-left p {
-color: white;
-text-shadow: 1px 1px 1px #333;
+color: #555;
 
 font-family: 'Open Sans', sans-serif;
 font-size: 15px;
